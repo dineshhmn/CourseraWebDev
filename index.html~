@@ -4,7 +4,7 @@
 <title>
 Module 2 assignment solution
 </title>
-<a href="css/mainstyle.css", type="stylesheet"/>
+<link href="css/mainstyle.css", type="stylesheet"/>
 </head>
 
 <body>
