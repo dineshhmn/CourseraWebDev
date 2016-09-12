@@ -9,6 +9,22 @@
 <title> Code for module 3</title>
 </head>
 <body>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<div class="navbar-header">
+<div class="navbar-brand">
+<span>
+<a href="index.html" >
+<img src="Images/food_logo.jpg" alt="food logo" class="home_image">
+<h1>FOOD, LLC.</h1>
+</a>
+</span>
+</div>
+
+</div>
+</div>
+</nav>
+
 <p>My code for module 3 of the course </p>
 </body>
 </html>

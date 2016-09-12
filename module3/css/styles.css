@@ -1,0 +1,19 @@
+.home_image {
+height: 100px;
+width: 100px;
+margin: -2px 10px 10px 10px ;
+padding: 0;
+float: left;
+align-content: center;
+border: 1px solid #b8b894;
+}
+
+.navbar{
+background-color: #f5f5f0;
+height: 175px;
+}
+
+h1 {
+text-align: left;
+margin-top: 40px;
+}
