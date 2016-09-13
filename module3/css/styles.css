@@ -58,6 +58,45 @@ border: 1px solid #cc2900;
 clear: both;
 }
 
+#menu-one, #menu-two, #menu-three{
+width: 100%;
+height: 300px;
+margin-bottom: 15px;
+position: relative;
+border: 2px solid black;
+overflow: hidden;
+}
+
+#menu-one{
+background: url('../Images/tile1.jpg') no-repeat;
+background-position: center;
+}
+
+
+#menu-two{
+background: url('../Images/tile2.jpg') no-repeat;
+background-position: center;
+}
+
+
+#menu-three{
+background: url('../Images/tile3.jpg') no-repeat;
+background-position: center;
+}
+
+#menu-one span, #menu-two span, #menu-three span{
+position: absolute;
+bottom: 0;
+right: 0;
+width: 100%;
+text-align: center;
+font-size: 1.6em;
+text-transform: uppercase;
+background-color: #000;
+color: #fff;
+opacity: 0.6; 
+}
+
 /****media Query ******/
 
 /** class large **/
@@ -91,6 +130,7 @@ clear: both;
 	}
 }
 
+
 /** class extra small **/
 @media (max-width: 767px) {
 .navbar-brand{
@@ -106,7 +146,7 @@ clear: both;
 	font-size: 1.2em;
 }
 .container-fluid .container_xs .jumbotron {
-	margin: 0;
+	margin-bottom: 50px;
 	padding: 0 0 0 0;
 	box-shadow: 0 0 7px #991f00;	
 	border: 2px solid #991f00;	
