@@ -60,6 +60,38 @@ clear: both;
 
 /****media Query ******/
 
+/** class large **/
+@media (min-width:1200px){
+.jumbotron {
+	background: url('../Images/food_full.jpg') no-repeat;
+	height: 900px;
+	width: auto;
+	box-shadow: 0 0 10px #991f00;	
+	border: 2px solid #991f00;	
+	}
+}
+
+/** class medium **/
+@media (min-width: 992px) and (max-width: 1199px){
+.jumbotron {
+	background: url('../Images/food1.jpg') no-repeat;
+	height: 700px;
+	box-shadow: 0 0 7px #991f00;	
+	border: 2px solid #991f00;	
+	}
+}
+
+/** Class Small **/
+@media (min-width: 768px) and (max-width: 991px){
+.jumbotron {
+	background: url('../Images/food1_992.jpg') no-repeat;
+	height: 500px;
+	box-shadow: 0 0 7px #991f00;	
+	border: 2px solid #991f00;	
+	}
+}
+
+/** class extra small **/
 @media (max-width: 767px) {
 .navbar-brand{
 	margin-top: -25px;
@@ -73,5 +105,11 @@ clear: both;
 #collapsable-nav{
 	font-size: 1.2em;
 }
+.container-fluid .container_xs .jumbotron {
+	margin: 0;
+	padding: 0 0 0 0;
+	box-shadow: 0 0 7px #991f00;	
+	border: 2px solid #991f00;	
+	}
 }
 

@@ -8,10 +8,13 @@
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 <title> Code for module 3</title>
 </head>
+
 <body>
+<!-- code for navigation header -->
 <header>
 <nav class="navbar navbar-default" id="header-nav">
-	<div class="container">
+	<div class="container-fluid">
+	<!-- code for img and name -->
 		<div class="navbar-header">
 			<a href="index.html" class="pull-left visible-md visible-lg">
 				<div id="logo-img" alt="Logo Image"></div>
@@ -21,6 +24,7 @@
 					<h1>FOOD. LLC.</h1>		
 				</a>		
 			</div>
+		<!-- code for links and button -->
 		<button type="button" class="navbar-toggle collapsed" data-toggle
 		="collapse" data-target="#collapsable-nav" aria-expanded="false">
 			<span class="sr-only"> Toggle Navigation </span>
@@ -51,18 +55,45 @@
 					</a>				
 				</li>			
 			</ul>
-					
-		
-		
-		
 		</div>
-		
-		
-		
 	</div>	
 </ul>
 </nav>
 </header>
+
+<!-- code for jumbotron -->
+<div class="container-fluid">
+<div id="main_content" class="container_xs">
+	<div class="jumbotron">
+		<img src="Images/food1_767.jpg" alt="Picture of food"
+			class="img-responsive visible-xs">
+	</div>
+</div>
+
+<div id="home-tiles" class="row">
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="index.html"> <div id="menu-one"><span>menu 1
+		</span></div></a>
+	</div>
+	
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="index.html"> <div id="menu-two"><span>menu 2
+		</span></div></a>
+	</div>
+
+	<div class="col-md-4 col-sm-12 col-xs-12">
+		<a href="index.html"> <div id="menu-three"><span>menu 3
+		</span></div></a>
+	</div>
+
+</div>
+</div>
+
+<p>Hello World!!!</p>
+<p>Hello World!!!</p>
+<p>Hello World!!!</p>
+<p>Hello World!!!</p>
+<p>Hello World!!!</p>
 
 <!-- Scripts -->
 <script src="js/jquery-3.1.0.min.js"></script>
