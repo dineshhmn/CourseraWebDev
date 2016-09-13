@@ -1,19 +1,77 @@
-.home_image {
-height: 100px;
-width: 100px;
-margin: -2px 10px 10px 10px ;
-padding: 0;
-float: left;
-align-content: center;
-border: 1px solid #b8b894;
+* {
+box-sizing: border-box;
 }
 
 .navbar{
-background-color: #f5f5f0;
-height: 175px;
+height: 140px;
+position: relative;
+top: 0px;
 }
 
-h1 {
-text-align: left;
-margin-top: 40px;
+#header-nav{
+border-radius: 0;
+border: 0;
 }
+
+#logo-img{
+background: url('../Images/food_logo.jpg') no-repeat;
+width: 120px;
+height: 120px;
+margin: 10px;
+}
+
+.navbar-brand{
+padding-top: 25px;
+}
+
+.navbar-brand h1{
+line-height: 0.75;
+font-size: 2.5em;
+color: black;
+padding-top: 15px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+text-decoration: none;
+}
+
+
+#nav_list a{
+color: #ff471a;
+text-align: center;
+font-size: 1.8em;
+}
+
+#nav_list a:hover {
+background: #ffb3b3;
+}
+
+#nav_list a span {
+font-size: 2.4em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+border: 1px solid #cc2900;
+}
+
+.navbar-header button.navbar-toggle{
+clear: both;
+}
+
+/****media Query ******/
+
+@media (max-width: 767px) {
+.navbar-brand{
+	margin-top: -25px;
+}
+.navbar-brand h1{
+	font-size: 7vw;
+}
+.navbar {
+	height: 16vw;
+}
+#collapsable-nav{
+	font-size: 1.2em;
+}
+}
+
