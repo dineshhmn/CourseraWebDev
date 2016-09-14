@@ -1,0 +1,45 @@
+#foodtiles{
+	margin: 20px;
+	position: relative;
+	border: 2px solid black;
+}
+
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6{
+height: 400px;
+width: 100%;
+margin-bottom: 30px;
+}
+
+#tile1 {
+background: url('../Images/foods1.jpg') no-repeat;
+}
+
+#tile2 {
+background: url('../Images/foods2.jpg') no-repeat;
+}
+
+#tile3 {
+background: url('../Images/foods3.jpg') no-repeat;
+}
+
+#tile4 {
+background: url('../Images/foods4.jpg') no-repeat;
+}
+
+#tile5 {
+background: url('../Images/foods5.jpg') no-repeat;
+}
+
+#tile6 {
+background: url('../Images/foods6.jpg') no-repeat;
+}
+
+.foods span{
+text-align: center;
+font-size: 1.3em;
+position: absolute;
+bottom: 0;
+right: 0;
+opacity: 0.9;
+background-color: #fff;
+}

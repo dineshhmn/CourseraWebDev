@@ -13,6 +13,7 @@ top: 0px;
 #header-nav{
 border-radius: 0;
 border: 0;
+background-color: black;
 }
 
 #logo-img{
@@ -29,7 +30,7 @@ padding-top: 25px;
 .navbar-brand h1{
 line-height: 0.75;
 font-size: 2.5em;
-color: black;
+color: #ff471a;
 padding-top: 15px;
 }
 
@@ -84,7 +85,6 @@ background-position: center;
 
 
 #menu-three{
-background: url('../Images/tile3.jpg') no-repeat;
 background-position: center;
 }
 
@@ -127,7 +127,7 @@ font-size: 0.9em;
 background-color: #b8b894;
 margin-top: 10px;
 padding-top: 8px;
-height: 20px;
+height: 32px;
 margin-bottom: 25px;
 }
 
@@ -178,6 +178,8 @@ margin-bottom: 25px;
 }
 #collapsable-nav{
 	font-size: 1.2em;
+	background-color: black;
+	opacity: 0.6;
 }
 .container-fluid .container_xs .jumbotron {
 	margin-bottom: 50px;
