@@ -32,7 +32,7 @@ document.querySelector("button").addEventListener("click",function () {
 	var self = this;
 	var name = "";
 		
-	$ajaxutils.sendGetRequest("/Data/name.json",function (res) {
+	$ajaxutils.sendGetRequest("/CourseraWebDev/Practice/Data/name.json",function (res) {
 		var message = res.firstName + " " +res.lastName;
 		message += "<br>He uses " + res.numberOfDisplays + " to Work";
 		document.querySelector("#content").innerHTML = "<h3>Hello " + message + " !</h3>";
